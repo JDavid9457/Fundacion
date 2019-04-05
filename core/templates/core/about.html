@@ -1,0 +1,59 @@
+{% extends 'core/base.html' %}
+
+
+{% block background%} {% load static %} {% static 'core/img/fondo.jpg' %} {% endblock%}
+
+
+{% block headers %}
+<h1>Acerca de</h1>
+              <span class="subheading"></span>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+
+<div class="col-lg-3 col-md-4 offset-lg-1">
+    <img class="img-fluid avatar" src="{% static 'core/img/avatar1.jpg' %}" alt="">
+</div>
+<div class="col-lg-7 col-md-8">
+    <h2 class="section-heading">QUIENES SOMOS</h2>   
+    <p ALIGN="justify">La Fundación la Canasta Comunitaria es una organización privada que nació en el año 2013 como iniciativa de 
+    profesionales interdisciplinarios, para promover, ejecutar, administrar y brindar atención integral en proyectos 
+    de desarrollo social, económicos y de complementación alimentaria con población vulnerable, de esta manera incide 
+    al desarrollo de proyectos socio organizativos de producción, transformación y de mercado alternativo. Su ámbito de 
+    acción se ejecuta en los sectores rurales y urbano marginales promoviendo el desarrollo humano, la asociatividad, 
+    producción sostenible y comercio justo bajo los principios de economía solidaria, apoyando y suscitando proyectos de
+    emprendimiento generadores de ingresos y empleos estables y sostenibles, impulsando así un modelo económico alternativo.</p>
+
+    <h2 class="section-heading">MISION</h2>   
+    <p ALIGN="justify">Somos una organización que promueve, ejecuta e interviene en proyectos de desarrollo social y emprendimientos económicos con 
+    población vulnerable, originando el desarrollo humano, la asociatividad, la producción sostenible y el mercado alternativo con el 
+    fin de mejorar las condiciones de vida de la población beneficiaria</p>
+
+    <h2 class="section-heading">VISION</h2>   
+    <p ALIGN="justify">La Fundación la Canasta Comunitaria en el año 2025 es una organización consolidada, líder en el Departamento de Nariño en el desarrollo 
+    de proyectos sociales que impulsa emprendimientos productivos-eco sostenibles, incidiendo positivamente en poblaciones vulnerables de la región.</p>
+
+    <h2 class="section-heading">OBJETIVOS:</h2>   
+
+    <li ALIGN="justify">Apoyar a otras entidades sin animo de lucro en el desarrollo de sus proyectos, cooperando en el cumplimento de su objeto social</li>
+        <br>
+    <li ALIGN="justify">Fortalecer e impulsar proyectos de atención integral con población de máxima vulnerabilidad, con énfasis en niños(as), jóvenes, mujeres 
+        y adultos mayores</li>
+        <br>
+
+    <li ALIGN="justify">Facilitar procesos de desarrollo con pequeños productores agrícolas, pecuarios, agroindustriales y de servicios.</li>
+        <br>
+    <li ALIGN="justify">Impulsar el consumo responsable de productos e intercambio de servicios</li>
+        <br>
+
+    <li ALIGN="justify">Liderar y orientar emprendimientos rentables y sostenibles que sean generadores de ingresos y/o empleos.</li>   
+
+ 
+</div>  
+</div>
+
+{% endblock %}
+
+
+
